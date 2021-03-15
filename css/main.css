@@ -3,7 +3,7 @@ body {
     overflow: auto;
     top: 0px;
     font-family: Ubuntu;
-    background-color: #ebbdb2; }
+    background-color: #ebdbb2; }
 
 @font-face {
     font-family: Ubuntu;
@@ -66,3 +66,10 @@ div.nav a {
 div.content {
     margin-left: 10px;
     margin-right: 10px; }
+
+div.social {
+    overflow-x: hidden; }
+
+div.social a:link, div.social a:visited, div.social a:hover {
+    text-decoration: none;
+    padding: 1px; }
