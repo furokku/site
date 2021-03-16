@@ -28,11 +28,14 @@ a:link.nav, a:visited.nav {
 a:hover {
     text-decoration: underline; }
 
+a.nf {
+    text-decoration: none; 
+    color: 8a8a8a; }
 
 
 
 /* it gets real spicy here,
-prepare for flex and <div> */
+prepare for <div> */
 
 .bar {
     padding: 0px;
