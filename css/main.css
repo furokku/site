@@ -61,7 +61,8 @@ div.nav p {
 div.nav a {
     padding-left: 10px;
     padding-right: 10px;
-    color: #8a8a8a; }
+    color: #8a8a8a;
+    text-decoration: none; }
 
 div.content {
     margin-left: 10px;
