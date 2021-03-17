@@ -1,15 +1,17 @@
 #/usr/bin/python
 
-# this script creates an index file with html to list files in /var/pub (by default)
+# use this script for server side only
+# creates an index file with html to list files in /pub (by default)
 # accompanying js is in the images.html page
-# change value of dir in like 8 if you feel like it
+# change value of dir in line 8 if you feel like it
 
 import os
 dir = os.listdir('/var/pub')
+url = "https://cdn.furokku.pp.ua"
 
 index = open('index', 'w')
 
 for file in dir:
-    index.write(f'<a href="/var/pub/{file}">{file}</a><br>')
+    index.write(f'<li><a href="{url}/pub/{file}">{file}</a></li>')
 
 index.close()
