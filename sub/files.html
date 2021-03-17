@@ -24,11 +24,21 @@
         </div>
 
         <div class="content">
-            <h1>few random files/images/whatever</h1>
+            <h1>random files</h1>
 
-            <p id="fslist">
-                coming soon<font size="2"><sup>TM</sup></font>
-            </p>
+            <div>
+                <button onclick="loadfs();">load files</button>
+                <p id="fslist"></p>
+            </div>
         </div>
     </body>
+
+    <script>
+        function loadfs() {
+            const url = "https://";
+            fetch(url)
+                .then(r => r.text())
+                .then(t => document.getElementById("fslist").innerHTML = t);
+        }
+    </script>    
 </html>
