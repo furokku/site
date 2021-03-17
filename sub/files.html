@@ -36,8 +36,8 @@
     </body>
 
     <script>
+        const url = "https://furokku.pp.ua/script/index";
         function loadfs() {
-            const url = "https://furokku.pp.ua/script/index";
             fetch(url)
                 .then(r => r.text())
                 .then(t => document.getElementById("fslist").innerHTML = t);
