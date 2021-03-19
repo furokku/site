@@ -15,7 +15,7 @@ def fsupdate():
     dir = os.listdir('/var/pub')
     index = open('index', 'w')
     for file in dir:
-        index.write(f'<li><a href="{url}/pub/{file}">{file}</a></li>')
+        index.write(f'<li><a href="{url}/pub/{file}">"{file}"</a></li>')
     index.close()
 
 while True:
