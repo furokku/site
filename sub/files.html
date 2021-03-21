@@ -3,7 +3,7 @@
     <head>
         <title>few random things</title>
 
-        <link rel="Stylesheet" type="text/css" href="../css/main.css">
+        <link rel="Stylesheet" type="text/css" href="/css/main.css">
     </head>
 
     <body>
@@ -29,7 +29,7 @@
             <p>may take up to 30 seconds to update the list</p>
 
             <div>
-                <button onclick="loadfs();">load files</button>
+                <p><button onclick="loadfs();">load files</button> <a href="ul.html">upload shit</a></p>
                 <ul id="fslist"></ul>
             </div>
 
@@ -44,7 +44,6 @@
         function loadfs() {
             fetch(url)
                 .then(r => r.text())
-                .then(t => document.getElementById("fslist").innerHTML = t);
-        }
+                .then(t => document.getElementById("fslist").innerHTML = t); }
     </script>    
 </html>
