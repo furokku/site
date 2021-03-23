@@ -71,4 +71,5 @@ div.social {
 
 div.social a:link, div.social a:visited, div.social a:hover {
     text-decoration: none;
-    padding: 1px; }
+    padding: 1px;
+    color:#282828; }
