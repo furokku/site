@@ -2,8 +2,8 @@
 
 # use this script for server side only
 # creates an index file with html to list files in /var/pub (by default)
-# accompanying js is in the images.html page
-# change value of dir in line 8 if you feel like it
+# accompanying js is in the files.html page
+# change value of dir in line 15 if you feel like it
 # linux ONLY unless you modify this script to work on windows
 
 import os
