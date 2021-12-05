@@ -3,7 +3,8 @@ body {
     overflow: auto;
     top: 0px;
     font-family: Ubuntu;
-    background-color: #ebdbb2; }
+    background-color: #ebdbb2;
+    min-height: 100%; }
 
 @font-face {
     font-family: Ubuntu;
@@ -27,6 +28,11 @@ a:link.nav, a:visited.nav {
 
 a:hover {
     text-decoration: underline; }
+
+p.aboutme {
+    overflow-wrap: break-word;
+    padding-left: 30%;
+    padding-right: 30%; }
 
 
 /* it gets real spicy here,
@@ -67,9 +73,14 @@ div.content {
     margin-right: 10px; }
 
 div.social {
+    margin: 0 auto;
+    left: 50%;
+    position: fixed;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
     overflow-x: hidden; }
 
 div.social a:link, div.social a:visited, div.social a:hover {
     text-decoration: none;
     padding: 1px;
-    color:#282828; }
+    color: #282828; }
