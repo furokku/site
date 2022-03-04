@@ -2,13 +2,8 @@ body {
     margin: 0;
     overflow: auto;
     top: 0px;
-    font-family: Ubuntu;
     background-color: #ebdbb2;
     min-height: 100%; }
-
-@font-face {
-    font-family: Ubuntu;
-    src: url("../webfonts/Ubuntu-R.ttf"); }
 
 .center {
     text-align: center; }
@@ -27,7 +22,7 @@ a:link.nav, a:visited.nav {
     text-decoration: none; }
 
 a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
 p.aboutme {
     overflow-wrap: break-word;
@@ -84,3 +79,10 @@ div.social a:link, div.social a:visited, div.social a:hover {
     text-decoration: none;
     padding: 1px;
     color: #282828; }
+
+div.ricespec p {
+    width: 400px;
+    height: 230px;
+    display: block;
+    margin: auto;
+    float: center; }
