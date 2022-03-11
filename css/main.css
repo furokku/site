@@ -29,9 +29,7 @@ p.aboutme {
     padding-left: 30%;
     padding-right: 30%; }
 
-
-/* it gets real spicy here,
-prepare for <div> */
+/* div shenanigans */
 
 .bar {
     padding: 0px;
@@ -47,8 +45,8 @@ prepare for <div> */
 
 div.info {
     float: left;
-    font-size: 20px;
-    padding-left: 10px;
+    font-size: 18px;
+    margin-left: 10px;
     color: #fcfcfc; }
 
 div.nav {
