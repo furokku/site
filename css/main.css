@@ -83,3 +83,7 @@ div.ricespec p {
     display: block;
     margin: auto;
     float: center; }
+
+span.hyphen {
+    padding-left: 5px;
+    padding-right: 5px; }
